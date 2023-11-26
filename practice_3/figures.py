@@ -31,10 +31,10 @@ class Triangle(Shape):
 
 class Square(Rectangle):
     def __init__(self, side):
-        self.sides = [side, side, side, side]
+        super().__init__([side, side])
 
     def __str__(self):
-        return ("\nЭто квадрат\nсо сторонами " + str(self.sides))
+        return ("\nЭто квадрат\nсо сторонами " + str(self.sides[0]))
 
     def area(self):
         return ("\nПлощадь квадрата: " + str(self.sides[0] * self.sides[1]))
