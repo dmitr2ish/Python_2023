@@ -5,6 +5,6 @@
 ``bash runPractice.sh number_of_practice surname_of_student``  
 
 _for example:_
-``bash runPractice.sh 1 ishmitov``
+``bash runPractice.sh 3 ishmitov``
 
 ----
