@@ -6,7 +6,7 @@ class Shape():
         return ("\nЭто фигура на плоскости.\nУ неё " + str(len(self.sides)) + " сторон(ы)")
 
     def area(self):
-        return ("\nПлощадь фигуры невозможно определить\n")
+        return ("\nПлощадь фигуры невозможно определить")
 
 
 class Rectangle(Shape):
